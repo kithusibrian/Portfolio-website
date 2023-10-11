@@ -1,7 +1,11 @@
 import React from "react";
+import { useState, useEffect } from "react";
 
 const About = () => {
-  return <div>About</div>;
+  const [about, setAbout] = useState(null);
+
+  useEffect(() => {});
+  return;
 };
 
 export default About;
